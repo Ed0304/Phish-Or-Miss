@@ -1,12 +1,24 @@
-# React + Vite
+🐟 Phish Or Miss
+🎮 Hackathon Demo Version
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Phish Or Miss is a fun and interactive security awareness game, inspired by platforms like Kahoot. Players must decide whether an email is legit or a phishing attempt — but beware, one wrong click could cost you!
 
-Currently, two official plugins are available:
+Built for a hackathon, this demo showcases how gamification can help users learn to spot phishing attempts in a fast-paced, competitive environment.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+💡 Features
 
-## Expanding the ESLint configuration
+🔐 Phishing vs Legit Emails – Challenge your instincts with realistic examples.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🧠 Scoring System – Earn or lose points based on your choices.
+
+🏆 Achievements – Unlock achievements like "First Mistake", "Perfect Combo", etc.
+
+🎖️ Meme-Based Medals – Use AI-generated meme-style medals instead of boring badges.
+
+📊 Leaderboards – See how you rank against others.
+
+🖼️ Sogni Integration – Generate custom memes based on your achievements using AI.
+
+👥 Authentication – Login and track your progress.
+
+📄 Detailed Report – Backend generates a report of correct, incorrect, and missed answer
