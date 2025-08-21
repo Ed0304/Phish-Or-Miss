@@ -1,0 +1,17 @@
+# Node / React
+node_modules/
+dist/
+.vite/
+
+# Python / Flask
+__pycache__/
+*.pyc
+instance/
+.venv/
+.env
+
+# Logs
+*.log
+
+# System files
+.DS_Store

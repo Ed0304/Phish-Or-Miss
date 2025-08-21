@@ -1,0 +1,170 @@
+/* App.css */
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+blockquote {
+  font-style: italic;
+  border-left: 4px solid #00bcd4;
+  padding-left: 1rem;
+  margin: 1rem 0;
+  color: #444;
+}
+
+a:hover, button:hover {
+  background-color: #005fa3;
+  box-shadow: 0 0 10px #0077cc, 0 0 20px #0077cc;
+  transition: all 0.2s ease-in-out;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.medal-image {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  margin-bottom: 0.75rem;
+  border-radius: 12px;
+}
+
+.medal-title {
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
+}
+
+.medal-desc {
+  font-size: 0.85rem;
+  color: #555;
+}
+
+.medals-grid {
+  display: flex;
+  gap: 1.5rem;
+  overflow-x: auto;
+  padding: 1rem;
+  justify-content: flex-start;
+  scroll-snap-type: x mandatory;
+}
+
+.medal-card {
+  flex: 0 0 auto;
+  width: 220px;
+  background: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  padding: 1rem;
+  text-align: center;
+  scroll-snap-align: start;
+  transition: transform 0.2s ease;
+}
+
+.medal-card:hover {
+  transform: translateY(-3px);
+}
+
+.medals-grid::-webkit-scrollbar {
+  height: 6px;
+}
+.medals-grid::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 6px;
+}
+
+.fake-link {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.report-container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem;
+  min-height: 100vh; /* Ensure full page height */
+  overflow-y: auto;   /* Enable vertical scroll */
+}
+
+footer {
+  font-size: 0.9rem;
+  line-height: 1.4;
+  word-break: break-word;
+}
+
+textarea{
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+.modal-overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.modal-content {
+  background-color: white;
+  padding: 2rem;
+  max-width: 600px;
+  margin: auto;
+  border-radius: 10px;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column !important;
+    gap: 12px !important;
+    width: 100%;
+  }
+
+  header button {
+    display: block !important;
+  }
+}
